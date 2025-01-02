@@ -41,6 +41,11 @@
     }
    </style>
 
+   <style>
+    .clip-path{
+      clip-path: polygon(15% 0, 85% 0, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+    }
+   </style>
    
 
 </head>
@@ -77,19 +82,19 @@
                  
                 </ul>
               </div>
-              <a href="index.html" class="md:w-40 xl:ml-24 "><img src="img/logo.png" alt="pic"></a>
+              <a href="index.html" class="md:w-40 xl:ml-24 lg:ml-12"><img src="img/logo.png" alt="pic"></a>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden lg:flex xl:ml-[500px] lg:ml-56">
               <ul class="menu menu-horizontal px-1">
-                <li><a class="text-base font-semibold bg-transparent hover:bg-[#3FDF77]  hover:text-black">HOME</a></li>
-                <li><a class="text-base font-semibold bg-transparent hover:bg-[#3FDF77] hover:text-black">ABOUT US</a></li>
-                <li><a class="text-base font-semibold bg-transparent hover:bg-[#3FDF77] hover:text-black">FEATURES</a></li>
-                <li><a class="text-base font-semibold bg-transparent hover:bg-[#3FDF77] hover:text-black">CONTACT</a></li>
+                <li><a href="#HOME" class="md:text-xl text-base font-semibold bg-transparent hover:bg-[#3FDF77]  hover:text-black">HOME</a></li>
+                <li><a class="md:text-xl text-base font-semibold bg-transparent hover:bg-[#3FDF77] hover:text-black">ABOUT US</a></li>
+                <li><a class="md:text-xl text-base font-semibold bg-transparent hover:bg-[#3FDF77] hover:text-black">FEATURES</a></li>
+                <li><a class="md:text-xl text-base font-semibold bg-transparent hover:bg-[#3FDF77] hover:text-black">CONTACT</a></li>
                
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn bg-[#FFBE18] border-none hover:bg-[#3FDF77] hover:text-black">SING IN</a>
+            <div class="navbar-end xl:mr-28 lg:mr-10">
+              <a class="btn relative bg-[#FFBE18] border-none hover:bg-[#3FDF77] hover:text-black clip-path">SING IN</a>
             </div>
           </div>         
          
@@ -97,8 +102,8 @@
      <!-- navbar start -->
      <!-- banner start -->
      
-     <div class="hero">
-        <div class="hero-content flex-col lg:flex-row-reverse text-white xl:gap-96 lg:gap-40 md:gap-4 gap-2">
+     <div id="HOME" class="hero">
+        <div class="hero-content flex-col lg:flex-row-reverse text-white xl:gap-80 lg:gap-24 md:gap-4 gap-2">
           <img
             src="img/banner _img.png"
             class="w-1/3" />
@@ -106,18 +111,18 @@
               <h3 class="md:mb-5 mb-2 lg:text-3xl md:text-2xl text-xl font-semibold text-[#3FDF77] bg-gradient-to-r from-[#30543c] p-2">
                 LIVE GAMING
               </h3>
-            <h1 class="lg:text-8xl md:text-4xl text-2xl font-bold lg:py-6 md:py-3 text-shadow">STEAMING</h1>
+            <h1 class="lg:text-8xl md:text-4xl text-2xl font-bold lg:py-6 md:py-3 text-shadow tracking-widest">STEAMING</h1>
             <h3 class="md:mb-5 mb-2 lg:text-3xl md:text-2xl text-xl font-bold">
                 VIDEO GAMES ONLINE
             </h3>
-            <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">CONTUCT US</button>
+            <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black clip-path">CONTUCT US</button>
 
             <div class="md:mt-6 mt-3">
-                <button class="btn bg-transparent text-white border-2 text-base font-bold hover:bg-[#3FDF77] hover:text-black rounded-full mr-2">DARK ZONE</button>
+                <button class="btn bg-transparent text-white border-2 text-base font-bold hover:bg-[#3FDF77] hover:text-black rounded-full mr-2 tracking-widest">DARK ZONE</button>
                 
-                <button class="btn bg-transparent text-white border-2 text-base font-bold hover:bg-[#3FDF77] hover:text-black rounded-full mr-2">NEXT GEN</button>
+                <button class="btn bg-transparent text-white border-2 text-base font-bold hover:bg-[#3FDF77] hover:text-black rounded-full mr-2 tracking-widest">NEXT GEN</button>
 
-                <button class="btn bg-transparent text-white border-2 text-base font-bold hover:bg-[#3FDF77] hover:text-black rounded-full mr-2">TANURPO</button>
+                <button class="btn bg-transparent text-white border-2 text-base font-bold hover:bg-[#3FDF77] hover:text-black rounded-full mr-2 tracking-widest">TANURPO</button>
             </div>
           </div>
         </div>
@@ -133,20 +138,20 @@
      <!-- hero part -->
      
      <div class="hero text-white lg:py-20 md:py-12 py-10">
-        <div class="hero-content flex-col lg:flex-row-reverse xl:gap-52 lg:gap-32 md:gap-8 gap-4">
+        <div class="hero-content flex-col lg:flex-row-reverse">
           <img
             src="img/services (3).jpg"
             class="md:w-1/2" />
           <div>
-              <p class="md:text-xl text-base font-semibold text-[#3FDF77] ml-8">
+              <p class="md:text-xl text-base font-bold text-[#3FDF77] ml-8 mb-3">
                 POWERFUL SERVICES
               </p>
-            <h1 class="lg:text-4xl md:text-2xl text-xl font-semibold ml-8">OUR POWERFUL SERVICES DONE ON TIME</h1>
+            <h1 class="lg:text-4xl md:text-2xl text-xl font-bold ml-8 tracking-wider">OUR POWERFUL SERVICES DONE <br> ON TIME</h1>
             <div class="grid md:grid-cols-2 grid-cols-1">
         <!-- services-1 -->
         <div class="card">
             <div class="card-body">
-                <i class="fa-regular fa-gem md:text-3xl text-xl font-semibold text-[#3FDF77]"></i>
+                <i class="fa-regular fa-gem md:text-3xl text-xl font-semibold text-[#3FDF77] cursor-pointer"></i>
               <h2 class="card-title">Year Experience</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque nemo et dolores optio.</p>
              
@@ -156,8 +161,8 @@
         <!-- services-2 -->
         <div class="card">
             <div class="card-body">
-                <i class="fa-solid fa-user-gear md:text-3xl text-xl font-semibold text-[#3FDF77]"></i>
-              <h2 class="card-title">Year Experience</h2>
+                <i class="fa-solid fa-user-gear md:text-3xl text-xl font-semibold text-[#3FDF77] cursor-pointer"></i>
+              <h2 class="card-title">Expert Teams</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque nemo et dolores optio.</p>
              
             </div>
@@ -166,8 +171,8 @@
         <!-- services-3 -->
         <div class="card">
             <div class="card-body">
-                <i class="fa-solid fa-recycle md:text-3xl text-xl font-semibold text-[#3FDF77]"></i>
-              <h2 class="card-title">Year Experience</h2>
+                <i class="fa-solid fa-recycle md:text-3xl text-xl font-semibold text-[#3FDF77] cursor-pointer"></i>
+              <h2 class="card-title">Worldwide Client</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque nemo et dolores optio.</p>
              
             </div>
@@ -176,8 +181,8 @@
         <!-- services-4 -->
         <div class="card">
             <div class="card-body">
-                <i class="fa-solid fa-life-ring md:text-3xl text-xl font-semibold text-[#3FDF77]"></i>
-              <h2 class="card-title">Year Experience</h2>
+                <i class="fa-solid fa-life-ring md:text-3xl text-xl font-semibold text-[#3FDF77] cursor-pointer"></i>
+              <h2 class="card-title">Best NFT Game</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque nemo et dolores optio.</p>
              
             </div>
@@ -215,7 +220,7 @@
            
            <div class="p-[11px] items-center border flex mt-[11px] rounded-[8px] justify-between">
              <p class="text-base font-semibold">1.002 <span class="text-[#ffbe18]">ETH</span></p>
-             <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+             <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] font-semibold text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
            </div>
          </div>
        </div>
@@ -238,7 +243,7 @@
             
             <div class="p-[11px] items-center border flex mt-[11px] rounded-[8px] justify-between">
               <p class="text-base font-semibold">1.002 <span class="text-[#ffbe18]">ETH</span></p>
-              <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+              <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] font-semibold text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
             </div>
           </div>
         </div>
@@ -266,7 +271,7 @@
                 
                 <div class="p-[11px] items-center border flex mt-[11px] rounded-[8px] justify-between">
                   <p class="text-base font-semibold">1.002 <span class="text-[#ffbe18]">ETH</span></p>
-                  <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+                  <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] font-semibold text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
 
             </div>
@@ -332,23 +337,26 @@
     </section>
      <!-- about us -->
      <!-- OUR TEAM -->
-     <section class="bg-black text-white lg:py-24 md:py-16 py-10">
-     <!-- heading -->
-      <div class="text-center mb-8">
-        <h3 class="md:text-2xl text-xl text-[#3FDF77] font-semibold">OUR TEAM MEMBER</h3>
+      <div class="bg-black text-white lg:py-24 md:py-16 py-10 xl:px-32 px-10">
+
+        <section class="md:container md:mx-auto ">
+          <!-- heading -->
+      <div class="text-center mb-10">
+        <h3 class="md:text-2xl text-xl text-[#3FDF77] font-semibold mb-3">OUR TEAM MEMBER</h3>
         <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">ACTIVE TEAM MEMBERS</h1>
       </div>
      <!-- heading -->
-     <!-- TEAM MEMBER -->
-     <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
-    <!-- card-1 -->
-    <div class="card bg-[#1C242F]">
+     <!-- TEAM MEMBER --> 
+
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+          <!-- card-1 -->
+          <div class="card bg-[#1C242F]">
       <figure class="px-10 pt-10">
         <img
           src="img/team03.png"
           alt="img"
           class="rounded-xl" />
-      </figure>
+        </figure>
       <div class="card-body items-center text-center">
         <h2 class="card-title">KILLER MASTER</h2>
         <p class="text-[#3FDF77] text-base font-semibold">Blockchain Expert</p>
@@ -360,9 +368,9 @@
     <div class="card bg-[#1C242F]">
       <figure class="px-10 pt-10">
         <img
-          src="img/team04.png"
-          alt="img"
-          class="rounded-xl" />
+        src="img/team04.png"
+        alt="img"
+        class="rounded-xl" />
       </figure>
       <div class="card-body items-center text-center">
         <h2 class="card-title">KILLER MASTER</h2>
@@ -375,10 +383,10 @@
     <div class="card bg-[#1C242F]">
       <figure class="px-10 pt-10">
         <img
-          src="img/team01.png"
+        src="img/team01.png"
           alt="img"
           class="rounded-xl" />
-      </figure>
+        </figure>
       <div class="card-body items-center text-center">
         <h2 class="card-title">KILLER MASTER</h2>
         <p class="text-[#3FDF77] text-base font-semibold">Blockchain Expert</p>
@@ -390,38 +398,40 @@
     <div class="card bg-[#1C242F]">
       <figure class="px-10 pt-10">
         <img
-          src="img/team02.png"
-          alt="img"
-          class="rounded-xl" />
-      </figure>
-      <div class="card-body items-center text-center">
-        <h2 class="card-title">KILLER MASTER</h2>
-        <p class="text-[#3FDF77] text-base font-semibold">Blockchain Expert</p>
+        src="img/team02.png"
+        alt="img"
+        class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">KILLER MASTER</h2>
+          <p class="text-[#3FDF77] text-base font-semibold">Blockchain Expert</p>
         
-      </div>
+        </div>
     </div>
     <!-- card-4 -->
        
-    </div>
-     <!-- TEAM MEMBER -->
-     
-    </section>
+  </div>
+  <!-- TEAM MEMBER -->
+  
+</section>
+</div>
      <!-- OUR TEAM -->
     <!-- JOIN COMMUNITY -->
-    <section class="bg-black text-white lg:py-24 md:py-16 py-10">  
+    <section class="bg-black text-white ">  
       <!-- hero part -->
       
       <div
-      class="hero lg:py-28"
+      class="hero lg:py-36"
       style="background-image: url(img/bg\ contuct.jpg); opacity: 0.9;">
       
       <div class="hero-content text-neutral-content text-center">
-        <div class="">
+        <div class="space-y-3">.
+          <i class="fa-regular fa-circle-play md:text-5xl text-2xl text-[#3FDF77] hover:text-[#FFBE18] mb-5 cursor-pointer"></i>
           <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">JOIN THE COMMUNITY</h1>
-          <p class="mb-5">
+          <p class="mb-5 font-bold">
             Join our Discord community and choosec onsteur
           </p>
-          <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">CONTUCT US</button>
+          <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black clip-path">CONTUCT US</button>
         </div>
       </div>
     </div>
@@ -430,40 +440,45 @@
     </section>
     <!-- JOIN COMMUNITY -->
     <!-- ROADMAPS -->
-    <section class="bg-[#10151B] text-white md:px-28 px-10 md:py-24 py-10">
-      <div class="grid md:grid-cols-2 grid-cols-1">
-        <!-- item-1 -->
-         <div class="space-y-3">
+     <div class="bg-[#10151B] text-white xl:px-44 px-10 md:py-24 py-10">
 
-           <h2 class="lg:text-5xl md:text-2xl text-xl font-extrabold">A LOOK INTO <br> ROADMAPS <br> SEASONS</h2>
-           <p class="md:py-6 py-3">With Season 1 Ending with our play and Duis elementum <br> sollicitudin is yaugue euismods Nulla ulla Player-focused updates <br> games from Mobile App and Enjoy.</p>
-           <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black ">CONTUCT US</button>
-           
-           <img class="mt-10" src="img/roadmap.png" alt="img">
-          </div>
-          
+       <section class="md:container md:mx-auto">
+         <div class="grid md:grid-cols-2 grid-cols-1">
+           <!-- item-1 -->
+            <div class="md:flex">
+
+              <div class="space-y-3">
+                
+                <h2 class="lg:text-5xl md:text-2xl text-xl font-extrabold">A LOOK INTO <br> ROADMAPS <br> SEASONS</h2>
+                <p class="md:py-6 py-3">With Season 1 Ending with our play and Duis elementum <br> sollicitudin is yaugue euismods Nulla ulla Player-focused updates <br> games from Mobile App and Enjoy.</p>
+                <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black clip-path">CONTUCT US</button>
+                
+                <img class="mt-10" src="img/roadmap.png" alt="img">
+              </div>
+              
+            </div>
         <!-- item-1 -->
         <!-- item-2 -->
-      <div class="">
-
-        <!-- card-1 -->
-        <div class="card bg-[#1B242E] mb-4">
-          <div class="card-body">
-            <h2 class="md:text-2xl text-xl font-bold">SEASON 1</h2>
-            <div class="flex gap-4">
-              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882]  duration-[.4s] ease-in-out"></span>
-              <p> Battle Practice Mode</p>
-            </div>
-            <div class="flex gap-4">
-               <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out"></span>
+        <div class="">
+          
+          <!-- card-1 -->
+          <div class="card bg-[#1B242E] mb-4">
+            <div class="card-body">
+              <h2 class="md:text-2xl text-xl font-bold">SEASON 1</h2>
+              <div class="flex gap-4">
+                <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882]  duration-[.4s] ease-in-out cursor-pointer"></span>
+                <p> Battle Practice Mode</p>
+              </div>
+              <div class="flex gap-4">
+               <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out cursor-pointer"></span>
               <p>Land Creation & Building</p>
             </div>
             <div class="flex gap-4">
-               <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out"></span>
+              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out cursor-pointer"></span>
               <p>Android Mobile</p>
             </div>
             <div class="flex gap-4">
-               <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out"></span>
+              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out cursor-pointer"></span>
               <p>Land Creation & Building </p>
             </div>
             
@@ -475,19 +490,19 @@
           <div class="card-body">
             <h2 class="md:text-2xl text-xl font-bold">SEASON 2</h2>
             <div class="flex gap-4">
-              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882]  duration-[.4s] ease-in-out"></span>
+              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882]  duration-[.4s] ease-in-out cursor-pointer"></span>
               <p> Battle Practice Mode</p>
             </div>
             <div class="flex gap-4">
-               <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out"></span>
+              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out cursor-pointer"></span>
               <p>Land Creation & Building</p>
             </div>
             <div class="flex gap-4">
-               <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px]"></span>
+              <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px] cursor-pointer"></span>
               <p>iOS Open Beta</p>
             </div>
             <div class="flex gap-4">
-               <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px]"></span>
+              <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px] cursor-pointer"></span>
               <p>Battle Practice Mode</p>
             </div>
             
@@ -498,41 +513,43 @@
         <div class="card bg-[#1B242E]">
           <div class="card-body">
             <h2 class="md:text-2xl text-xl font-bold">SEASON 3</h2>
-           
+            
             <div class="flex gap-4">
-              <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px]"></span>
-             <p>
-              Land Creation & Building</p>
-           </div>
-           
-           <div class="flex gap-4">
-            <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px]"></span>
-           <p>Battle Practice Mode</p>
-         </div>
-
-         <div class="flex gap-4">
-          <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px]"></span>
-         <p>Land Creation & Building</p>
-       </div>
-
-       <div class="flex gap-4">
-        <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px]"></span>
-       <p>Battle Practice Mode</p>
-     </div>
-
-     
-
+              <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px] cursor-pointer"></span>
+              <p>
+                Land Creation & Building</p>
+              </div>
+              
+              <div class="flex gap-4">
+                <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px] cursor-pointer"></span>
+                <p>Battle Practice Mode</p>
+              </div>
+              
+              <div class="flex gap-4">
+                <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px] cursor-pointer"></span>
+                <p>Land Creation & Building</p>
+              </div>
+              
+              <div class="flex gap-4">
+                <span class="bg-[black] border border-gray-500 w-[18px] rounded-full block h-[18px] cursor-pointer"></span>
+                <p>Battle Practice Mode</p>
+              </div>
+              
+              
+              
+            </div>
           </div>
+          <!-- card-3 -->
+          
         </div>
-        <!-- card-3 -->
-        
-      </div>
         <!-- item-2 -->
+      </div>
+    </section>
   </div>
-  </section>
-  <!-- ROADMAPS -->
-  <!-- TOP TRENDING -->
-  <section class="bg-[#10181F] lg:py-20 md:py-16 py-8 p-10 text-white">
+    <!-- ROADMAPS -->
+    <!-- TOP TRENDING -->
+    <div class="bg-[#10181F] lg:py-20 md:py-16 py-8 p-10 text-white">
+    <section class="md:container md:mx-auto ">
   <!-- heading -->
    <div class="flex">
      <h1 class="lg:text-4xl md:text-2xl text-xl font-bold">TOP TRENDING</h1>
@@ -552,6 +569,11 @@
         <h2 class="card-title">clanda max</h2>
         <a href="" class="link text-gray-500">Don max</a>
       </div>
+
+      
+    </div> 
+    <div class="card-actions justify-end ">
+      <i class="fa-solid fa-heart md:text-4xl text-2xl -mt-10 text-[#45f882] cursor-pointer"></i>
     </div>
     <figure class="py-2">
       <img
@@ -560,9 +582,9 @@
         class="rounded-xl" />
     </figure>
     <div class="card-body">
-      <p class="text-gray-500">last bid</p>
+      <p class="text-gray-400 text-base font-semibold">last bid</p>
       <div class="card-actions">
-        <p class="font-semibold"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
+        <p class="font-semibold md:text-xl text-lg"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
         <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
@@ -580,16 +602,21 @@
         <a href="" class="link text-gray-500">Don max</a>
       </div>
     </div>
+
+    <div class="card-actions justify-end ">
+      <i class="fa-solid fa-heart md:text-4xl text-2xl -mt-10 text-[#45f882] cursor-pointer"></i>
+    </div>
     <figure class="py-2">
       <img
         src="img/top (2).jpg"
         alt=""
         class="rounded-xl" />
+        
     </figure>
     <div class="card-body">
-      <p class="text-gray-500">last bid</p>
+      <p class="text-gray-400 text-base font-semibold">last bid</p>
       <div class="card-actions">
-        <p class="font-semibold"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
+        <p class="font-semibold md:text-xl text-lg"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
         <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
@@ -607,6 +634,11 @@
         <a href="" class="link text-gray-500">Don max</a>
       </div>
     </div>
+
+    <div class="card-actions justify-end ">
+      <i class="fa-solid fa-heart md:text-4xl text-2xl -mt-10 text-[#45f882] cursor-pointer"></i>
+    </div>
+
     <figure class="py-2">
       <img
         src="img/top (2).jpg"
@@ -614,9 +646,9 @@
         class="rounded-xl" />
     </figure>
     <div class="card-body">
-      <p class="text-gray-500">last bid</p>
+      <p class="text-gray-400 text-base font-semibold">last bid</p>
       <div class="card-actions">
-        <p class="font-semibold"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
+        <p class="font-semibold md:text-xl text-lg"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
         <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
@@ -626,9 +658,13 @@
   </div>
    <!-- TRENDING ITEMS -->
   </section>
+    </div>
+
   <!-- TOP TRENDING -->
    <!-- contuct us -->
-   <section class="bg-[#11161C] lg:py-20 md:py-16 py-8 p-10 text-white">
+    <div class="bg-[#11161C] lg:py-20 md:py-16 py-8 p-10 text-white">
+
+   <section class="md:container md:mx-auto xl:px-10">
    <!-- heading -->
    <div class="text-center md:mb-10 mb-5">
     <h1 class="lg:text-5xl md:text-2xl text-xl font-bold uppercase">contuct us</h1>
@@ -657,17 +693,19 @@
       <input class="lg:w-[49%] md:w-[45%] bg-transparent border border-gray-500 p-3" type="email" placeholder="Email">
     </div>
     <textarea name="" placeholder="Enter your messages" id cols="30" rows="6" class="bg-transparent border border-gray-500 mt-4 p-3 lg:w-[99%] md:w-[92%] w-[84%]"></textarea>
-    <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black uppercase mt-2">Submit now</button>
+    <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black uppercase mt-2 clip-path">Submit now</button>
    </div>
    <!-- item-2 -->
   </div>
    <!-- items -->
   </section>
+</div>
+
    <!-- contuct us -->
 </main>
 <!-- main end -->
 <!-- footer -->
-<footer class="footer bg-[#000000] text-white p-10">
+<footer class="footer bg-[#000000] text-white p-10 lg:py-32 md:py-16 py-8">
   <nav>
    <img class="w-48" src="img/logo.png" alt="logo">
   <p class="font-semibold">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Reprehenderit, corrupti incidunt <br> voluptatum</p>
@@ -707,7 +745,7 @@
           placeholder="Email"
           class="input input-bordered" />
         </div>
-        <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black uppercase mt-2">Subscribe</button>
+        <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black uppercase mt-2 clip-path">Subscribe</button>
     </fieldset>
   </form>
 </footer>
