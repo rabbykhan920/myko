@@ -46,12 +46,24 @@
       clip-path: polygon(15% 0, 85% 0, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
     }
    </style>
+
+   <style>
+    .c-path{
+     clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 51%);
+    }
+   </style>
+
+   <style>
+    .gradient-btn{
+      background-image: -webkit-linear-gradient(0deg, #30543c 0%, transparent 100%, #45f882 100%);
+    }
+   </style>
    
 
 </head>
 <body class="font-Barlow">
      <!-- header start -->
-     <header style="background-image: url(img/banner\ bg.jpg);">
+     <header style="background-image: url(img/banner\ bg.jpg); background-position: center;">
      <!-- navbar start -->
      <nav>
 
@@ -284,7 +296,8 @@
     </section>
     <!-- FEATURE SECTION -->
     <!-- about us -->
-    <section class="bg-[#13171A] lg:py-24 md:py-16 py-10">
+     <div class="bg-[#13171A] lg:py-24 md:py-16 py-10">
+    <section class="md:container md:mx-auto">
       <!-- heading -->
       <div class="text-center md:p-10">
         <h3 class="text-[#3FDF77] text-xl font-semibold">KNOW ABOUT US</h3>
@@ -308,33 +321,48 @@
      </div>
      <!-- heading -->
       <!-- hero part -->
-      <!-- <div class="hero text-white">
-        <div class="hero-content flex-col lg:flex-row">
-          <img
-            src="img/about_img01.jpg"
-            class="max-w-sm" />
-          <div>
-            <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">HUMAN GAME</h1>
-            <h3 class="text-[#FFB031] text-xl font-semibold">RATE 50%</h3>
-            <p class="py-6 text-gray-500">
-                LLorem ipsum dolor sit amet, consteur adipiscing Duis <br> elementum sollicitudin is yaugue euismods Nulla <br> ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa <br> venenatis
-            </p>
-            <div class="">
-              <div class="card-body">
-                <h2 class="card-title">Card title!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
-              </div>
-            </div>
+     <div class="grid md:grid-cols-3 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+       
+       <div class="">
+        <img src="img/about_img01.jpg" alt="">
+       </div>
 
-            <button class="btn btn-primary">Get Started</button>
-          </div>
+       <div class="">
+        <h1 class="lg:text-4xl md:text-2xl text-xl font-bold text-white">HUMAN GAME</h1>
+        <h3 class="md:text-2xl text-lg font-semibold text-[#ffb031] md:mb-8 mb-4">RATE 50%</h3>
+       <p class="text-gray-300 mb-20">Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa venenatis</p>
+       
+       <div class="flex ">
+       <button class="gradient-btn text-white w-full font-bold py-[16px] px-[20px] border border-[#30543c] mr-4">DRAGON BALL</button>
+       <button class="gradient-btn text-white w-full font-bold py-[16px] px-[20px] border border-[#30543c] mr-4">DRAGON BALL</button>
+       <button class="gradient-btn text-white w-full font-bold py-[16px] px-[20px] border border-[#30543c] mr-4">DRAGON BALL</button>
+      </div> 
+
+      </div>
+
+      <div class="md:mt-10">
+     
+        <div class="bg-gradient-to-r from-[#30543c] p-2 flex items-center mb-3 rounded-lg">
+          <img src="img/game (1).png" alt="">
+          <h4 class="text-xl font-semibold text-white ml-2">Chichi Dragon Ball</h4>
         </div>
-      </div> -->
+        
+        <div class="bg-gradient-to-r from-[#30543c] p-2 flex items-center mb-3 rounded-lg">
+          <img src="img/game (2).png" alt="">
+          <h4 class="text-xl font-semibold text-white ml-2">Space Babe Night</h4>
+        </div>
+
+        <div class="bg-gradient-to-r from-[#30543c] p-2 flex items-center rounded-lg">
+          <img src="img/game (3).png" alt="">
+          <h4 class="text-xl font-semibold text-white ml-2">Dragon Ball</h4>
+        </div>
+
+      </div>
+
+     </div>
       <!-- hero part -->
     </section>
+  </div>
      <!-- about us -->
      <!-- OUR TEAM -->
       <div class="bg-black text-white lg:py-24 md:py-16 py-10 xl:px-32 px-10">
@@ -440,10 +468,10 @@
     </section>
     <!-- JOIN COMMUNITY -->
     <!-- ROADMAPS -->
-     <div class="bg-[#10151B] text-white xl:px-44 px-10 md:py-24 py-10">
+     <div style="background-image: url(img/roadmap_bg.jpg); background-position: center;" class="bg-[#10151B] text-white xl:px-44 px-10 md:py-24 py-10">
 
        <section class="md:container md:mx-auto">
-         <div class="grid md:grid-cols-2 grid-cols-1">
+         <div class="grid md:grid-cols-2 grid-cols-1 lg:gap-10">
            <!-- item-1 -->
             <div class="md:flex">
 
@@ -452,8 +480,9 @@
                 <h2 class="lg:text-5xl md:text-2xl text-xl font-extrabold">A LOOK INTO <br> ROADMAPS <br> SEASONS</h2>
                 <p class="md:py-6 py-3">With Season 1 Ending with our play and Duis elementum <br> sollicitudin is yaugue euismods Nulla ulla Player-focused updates <br> games from Mobile App and Enjoy.</p>
                 <button class="btn bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black clip-path">CONTUCT US</button>
-                
-                <img class="mt-10" src="img/roadmap.png" alt="img">
+                <div class="">
+                  <img class="md:mt-16 mt-8" src="img/roadmap.png" alt="img">
+                </div>
               </div>
               
             </div>
@@ -462,7 +491,7 @@
         <div class="">
           
           <!-- card-1 -->
-          <div class="card bg-[#1B242E] mb-4">
+          <div class="card bg-[#1B242E] mb-4 md:w-96">
             <div class="card-body">
               <h2 class="md:text-2xl text-xl font-bold">SEASON 1</h2>
               <div class="flex gap-4">
@@ -486,7 +515,7 @@
         </div>
         <!-- card-1 -->
         <!-- card-2 -->
-        <div class="card bg-[#1B242E] mb-4">
+        <div class="card bg-[#1B242E] mb-4 md:w-96">
           <div class="card-body">
             <h2 class="md:text-2xl text-xl font-bold">SEASON 2</h2>
             <div class="flex gap-4">
@@ -510,7 +539,7 @@
         </div>
         <!-- card-2 -->
         <!-- card-3 -->
-        <div class="card bg-[#1B242E]">
+        <div class="card bg-[#1B242E] md:w-96">
           <div class="card-body">
             <h2 class="md:text-2xl text-xl font-bold">SEASON 3</h2>
             
@@ -559,7 +588,7 @@
    <!-- TRENDING ITEMS -->
    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:mt-10 mt-5 lg:gap-10 md:gap-6 gap-3">
    <!-- item-1 -->
-   <div class="card bg-[#212B35] px-6 py-2">
+   <div class="card bg-[#212B35] px-6 py-2 c-path border-2 border-[#4b4b4b]">
     <div class="flex">
       <div class="mr-3">
         <img src="img/f img.png" alt="">
@@ -585,13 +614,13 @@
       <p class="text-gray-400 text-base font-semibold">last bid</p>
       <div class="card-actions">
         <p class="font-semibold md:text-xl text-lg"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
-        <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+        <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none font-semibold text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
   </div>
    <!-- item-1 -->
    <!-- item-2 -->
-   <div class="card bg-[#212B35] px-6 py-2">
+   <div class="card bg-[#212B35] px-6 py-2 c-path border-2 border-[#4b4b4b]">
     <div class="flex">
       <div class="mr-3">
         <img src="img/f img.png" alt="">
@@ -617,13 +646,13 @@
       <p class="text-gray-400 text-base font-semibold">last bid</p>
       <div class="card-actions">
         <p class="font-semibold md:text-xl text-lg"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
-        <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+        <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none font-semibold text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
   </div>
    <!-- item-2 -->
    <!-- item-3 -->
-   <div class="card bg-[#212B35] px-6 py-2">
+   <div class="card bg-[#212B35] px-6 py-2 c-path border-2 border-[#4b4b4b]">
     <div class="flex">
       <div class="mr-3">
         <img src="img/f img.png" alt="">
@@ -649,7 +678,7 @@
       <p class="text-gray-400 text-base font-semibold">last bid</p>
       <div class="card-actions">
         <p class="font-semibold md:text-xl text-lg"><i class="fa-brands fa-ethereum"></i> 2.006 ETH</p>
-        <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+        <button class="p-1 rounded-lg md:px-4 text-black bg-[#FFBE18] border-none font-semibold text-base hover:bg-[#3FDF77] hover:text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
   </div>
@@ -662,7 +691,7 @@
 
   <!-- TOP TRENDING -->
    <!-- contuct us -->
-    <div class="bg-[#11161C] lg:py-20 md:py-16 py-8 p-10 text-white">
+    <div style="background-image: url(img/roadmap_bg.jpg); background-position: center;" class="bg-[#11161C] lg:py-20 md:py-16 py-8 p-10 text-white">
 
    <section class="md:container md:mx-auto xl:px-10">
    <!-- heading -->
@@ -728,16 +757,41 @@
     <a href="#" class="text-lg text-semibold"><i class="fa-solid fa-angle-right mr-2"></i>about our company</a>
   </nav>
   <nav>
-    <h6 class="capitalize text-[#45F882] text-2xl font-semibold">userful link</h6>
-    <a href="#" class="text-lg text-semibold">about our company <br> 4141 berlin, germeny city</a>
-    <a href="#" class="text-lg text-semibold">about our company <br> 4141 berlin, germeny city</a>
-    <a href="#" class="text-lg text-semibold">about our company <br> 4141 berlin, germeny city</a>
+    <h6 class="capitalize text-[#45F882] text-2xl font-semibold">contact us</h6>
+    <div class="flex"> 
+      <div class="mt-2">
+        <a href="#"><i class="fa-solid fa-phone p-3 mr-2 bg-[#45F882] rounded-full text-black hover:bg-[#FFBE18]"></i></a>
+      </div>
+      <div class="">
+        <a href="#" class="text-lg text-semibold">about our company <br> 4141 berlin, germeny city</a>
+      </div>
+    </div>
+
+    <div class="flex"> 
+      <div class="mt-2">
+        <a href="#"><i class="fa-solid fa-envelope p-3 mr-2 bg-[#45F882] rounded-full text-black hover:bg-[#FFBE18]"></i></a>
+      </div>
+      <div class="">
+        <a href="#" class="text-lg text-semibold">about our company <br> 4141 berlin, germeny city</a>
+      </div>
+    </div>
+
+
+     <div class="flex"> 
+      <div class="mt-2">
+        <a href="#"><i class="fa-solid fa-location-dot p-3 mr-2 bg-[#45F882] rounded-full text-black hover:bg-[#FFBE18]"></i></a>
+      </div>
+      <div class="">
+        <a href="#" class="text-lg text-semibold">about our company <br> 4141 berlin, germeny city</a>
+      </div>
+    </div>
+
   </nav>
   <form>
     <h6 class="capitalize text-[#45F882] text-2xl font-semibold">Newsletter</h6>
     <fieldset class="">
       <label class="label">
-        <span class=" text-white">subcribe our newsletter to get the <br> last news</span>
+        <span class=" text-white text-base font-semibold">subcribe our newsletter to get the <br> last news</span>
       </label>
       <div class="">
         <input

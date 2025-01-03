@@ -1,1 +1,22 @@
-#13171A
+ <div class="card bg-[#1B242E] mb-4">
+            <div class="card-body">
+              <h2 class="md:text-2xl text-xl font-bold">SEASON 1</h2>
+              <div class="flex gap-4">
+                <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882]  duration-[.4s] ease-in-out cursor-pointer"></span>
+                <p> Battle Practice Mode</p>
+              </div>
+              <div class="flex gap-4">
+               <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out cursor-pointer"></span>
+              <p>Land Creation & Building</p>
+            </div>
+            <div class="flex gap-4">
+              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out cursor-pointer"></span>
+              <p>Android Mobile</p>
+            </div>
+            <div class="flex gap-4">
+              <span class="bg-[#ffb031] w-[18px] rounded-full block h-[18px] hover:bg-[#45F882] duration-[.4s] ease-in-out cursor-pointer"></span>
+              <p>Land Creation & Building </p>
+            </div>
+            
+          </div>
+        </div>
