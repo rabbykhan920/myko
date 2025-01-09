@@ -20,3 +20,93 @@
             
           </div>
         </div>
+
+
+
+
+                        f-section
+                          
+         <section class="bg-black lg:py-32 md:py-20 py-10">
+      <div class="flex justify-center">
+
+      <!-- FEATURE items -->
+      <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+        
+       <!-- item-1 -->
+       <div class="md:flex">
+
+        <div class="flex p-5 bg-[#121A23] text-white rounded-xl">
+          <div class="">
+            <img class="rounded-xl"
+            src="img/features (2).jpg"
+            alt="item" />
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">WOLF GAMING ART</h2>
+          <p class="card-title"><img src="img/f img.png" alt="">Alax Max
+           <span class="text-xs font-normal">CREATOR</span></p>
+           
+           <div class="p-[11px] items-center border flex mt-[11px] rounded-[8px] justify-between">
+             <p class="text-base font-semibold">1.002 <span class="text-[#ffbe18]">ETH</span></p>
+             <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] font-semibold text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+           </div>
+         </div>
+       </div>
+
+       </div>
+       <!-- item-1 -->
+       <!-- item-2 -->
+       <div class="md:flex">
+
+         <div class="flex p-5 bg-[#121A23] text-white rounded-xl">
+           <div class="">
+             <img class="rounded-xl"
+             src="img/features (3).jpg"
+             alt="item" />
+         </div>
+         <div class="card-body">
+           <h2 class="card-title">WOLF GAMING ART</h2>
+           <p class="card-title"><img src="img/f img.png" alt="">Alax Max
+            <span class="text-xs font-normal">CREATOR</span></p>
+            
+            <div class="p-[11px] items-center border flex mt-[11px] rounded-[8px] justify-between">
+              <p class="text-base font-semibold">1.002 <span class="text-[#ffbe18]">ETH</span></p>
+              <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] font-semibold text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        </div>
+       <!-- item-2 -->
+       
+      </div>
+
+    </div>
+
+       <!-- item-3 -->
+       <div class="md:flex md:justify-center mt-5">
+         
+         <div class="flex p-5 bg-[#121A23] text-white rounded-xl">
+            <div class="">
+              <img class="rounded-xl"
+              src="img/features (1).jpg"
+              alt="item" />
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">WOLF GAMING ART</h2>
+              <p class="card-title"><img src="img/f img.png" alt="">Alax Max
+                <span class="text-xs font-normal">CREATOR</span></p>
+                
+                <div class="p-[11px] items-center border flex mt-[11px] rounded-[8px] justify-between">
+                  <p class="text-base font-semibold">1.002 <span class="text-[#ffbe18]">ETH</span></p>
+                  <button class="p-1 rounded-lg md:px-4 bg-[#FFBE18] border-none text-base hover:bg-[#3FDF77] font-semibold text-black">Bid <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- item-3 -->
+      </div>
+      
+      <!-- FEATURE items -->
+    </section>
